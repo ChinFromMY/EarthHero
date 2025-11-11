@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    color: #567257;
+}
+
+.sidemenu{
+    position: fixed;
+    background: #ffffff;
+    width: 20vw;
+    min-height: 100vh;
+}
+
+/* .fa-solid .fa-solid fa-house, .fa-solid fa-users, .fa-solid fa-user-secret, .fa-solid fa-file:hover{
+    background-color: #ffffff;
+    color: #567257;
+} */
+
