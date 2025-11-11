@@ -3,24 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EarthHero Admin Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="stylesheet" href="admin.css">
-
+    <title>EarthHero Admin Dashboard</title>
 </head>
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <div class="earth-logo">
-                <img src="./img/earth-logo.png" alt="EarthHero Logo">
-                <h2>EarthHero</h2>
+    <div class="sidebar">
+        <div class="earth-logo">
+            <h2>EarthHero</h2>
+        </div>
+        <ul>
+            <li><i class="fa-solid fa-house"></i>Dashboard</li>
+            <li><i class="fa-solid fa-users"></i>Users</li>
+            <li><i class="fa-solid fa-box-open"></i>Products</li>
+            <li><i class="fa-solid fa-money-bill-transfer"></i>Transactions</li>
+        </ul>
+    </div>
+
+    <div class="header-container">
+        <div class="header">
+            <h2 class="header-title">EarthHero Admin Panel</h2>
+        </div>
+    </div>
+
+    <div class="card-content">
+        <div class="top-row-wrapper">
+            <div class="dashboard-card">
+                <i class="fa-solid fa-users card-icon"></i> 
+                <p>View Users</p>
             </div>
-            <nav>
-                <a href="#" class="active"><i class="fa-solid fa-house"></i>Dashboard</a><br>
-                <a href="#"><i class="fa-solid fa-users"></i>Users</a><br>
-                <a href="#"><i class="fa-solid fa-user-secret"></i>Products</a><br>
-                <a href="#"><i class="fa-solid fa-file"></i>Transactions</a><br>
-            </nav>
+
+            <div class="dashboard-card">
+                <i class="fa-solid fa-box-open card-icon"></i>
+                <p>Manage Products</p>
+            </div>
+
+            <div class="dashboard-card">
+                <i class="fa-solid fa-money-bill-transfer card-icon"></i>
+                <p>View Transaction Summary</p>    
+            </div> 
+        </div>
+    </div>
+
     
 </body>
 </html>
